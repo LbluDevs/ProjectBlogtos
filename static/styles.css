@@ -74,3 +74,17 @@ input{
        text-decoration: none;
        margin-left: 60px;
     }
+
+    a:hover{
+       color: #0044ff
+    }
+
+    .button:hover{
+        color: black;
+        background-color: #0044ff;
+        width: 145px;
+    }
+
+    label:hover{
+        color: #0044ff;
+    }
