@@ -1,0 +1,16 @@
+/*
+Hereda todo el estilo que tiene generalStyles.css mas lo que agruegues a este codigo, UTILIZAR ESTA HOJA DE ESTILOS SOLO PARA LA PAGINA DE LOGIN
+*/
+@import url(generalStyles.css);
+
+
+
+body{
+    background-color: var(--backgroundDeepBlue);
+}
+
+.centered{
+    margin: 25rem auto;
+    width:50vw;
+    text-align: center;
+}

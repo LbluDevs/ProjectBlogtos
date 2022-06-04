@@ -1,0 +1,10 @@
+#Aqui se escriben los archivos que no seran subidos a github
+#es decir, si hay un archivo.algo aqui esto no se subira a github, asi asegurando la seguridad de cualquier dato importante/privado
+
+
+
+#ignora todos los archivos.env (no los sube a github)
+*.env
+
+#ignora el virtual environment
+.blogtosEnvironment
