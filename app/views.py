@@ -14,10 +14,10 @@ def loginPage():
 
         return redirect(url_for("homePage"))
 
-    return render_template("index.html")
+    return render_template("public/index.html")
 
 
 @app.route("/Home")
 def homePage():
 
-    return render_template("menu.html")
+    return render_template("public/menu.html")
