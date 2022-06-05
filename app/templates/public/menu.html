@@ -3,76 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>TEST</title>
-        <link rel="stylesheet" href="/static/styleSheets/generalStyles.css">
+        <link rel="stylesheet" href="/app/static/styleSheets/generalStyles.css">
     </head>
     <body>
-        <div class="banner">
-            <div class="content">
-                <h1>EVERYDAY NEWS</h1>
-                <p>Welcome, today we have nothing new for you.</p>
-            </div>
-        <div class="navigation">
-            <ul>
-                <li class="list active">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="home"></ion-icon>
-                        </span>
-                        <span class="text">Home</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="person"></ion-icon>
-                        </span>
-                        <span class="text">Profile</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="school"></ion-icon>
-                        </span>
-                        <span class="text">Schedule</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="settings"></ion-icon>
-                        </span>
-                        <span class="text">Settings</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="text"></ion-icon>
-                        </span>
-                        <span class="text">Messages</span>
-                    </a>
-                </li>
-                <div class="indicator"></div>
-            </ul>
-        </div>
-        <div class="content">
-            <h1>EVERYDAY NEWS</h1>
-            <p>Welcome, today we have nothing new for you.</p>
-        </div>
-    </div>
-        <script>
-            const list = document.querySelectorAll('.list');
-            function activeLink(){
-                list.forEach((item) =>
-                item.classList.remove('active'));
-                this.classList.add('active');
-            }
-            list.forEach((item)=>
-            item.addEventListener('click',activeLink));
-        </script>
-        <div class="banner">
-            <div class="bar">
-                <ul>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-        </div>
+       <div class="banner">
+           <div class="navbar">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Profile</a></li>
+                   <li><a href="#">School</a></li>
+                   <li><a href="#">Events</a></li>
+                   <li><a href="#">Settings</a></li>
+               </ul>
+           </div>
+           <div class="content">
+               <h1>Welcome</h1>
+               <p>This website is under development<br>come back later.</p>
+               <div>
+                   <button type="button"><span></span>ABOUT US</button>
+               </div>
+           </div>
+       </div>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 </html>
