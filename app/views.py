@@ -3,8 +3,11 @@ Todas las rutas HTML, estaran colocadas aqui, exepto por las rutas de admin
 """
 
 
+
 from app import app
 from app import url_for, render_template, request, redirect
+
+from database import mycursor, db, addUser
 
 @app.route("/",methods=["GET","POST"])
 def loginPage():
@@ -16,6 +19,8 @@ def loginPage():
         print(userName)
         print(password)
         print(rememberCheckBox)
+
+        addUser(userName,password)
 
         return redirect(url_for("homePage"))
 
