@@ -39,7 +39,7 @@ font-family: 'Noto Sans', sans-serif; Extra-BLACK utilizar para subtitulos
 body{
     position: fixed;
     display: flex;
-    margin-left: 150vh;
+    left: 75vw;
     justify-content: center;
     align-items: center;
     min-height: 190vh;
