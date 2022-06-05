@@ -1,15 +1,13 @@
 /*
 Hereda todo el estilo que tiene generalStyles.css mas lo que agruegues a este codigo, UTILIZAR ESTA HOJA DE ESTILOS SOLO PARA LA PAGINA DE LOGIN
 */
-@import url(generalStyles.css);
-
-
+@import url(Styles.css);
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--backgroundDeepBlue);
+    background-color: #0044ff;
     font-family: 'Anton', sans-serif;
 }
 
