@@ -1,3 +1,8 @@
+"""
+Todas las rutas HTML, estaran colocadas aqui, exepto por las rutas de admin
+"""
+
+
 from app import app
 from app import url_for, render_template, request, redirect
 
